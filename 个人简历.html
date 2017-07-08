@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+*{margin:0px;padding:0px;}
+li{list-style-type:none;float:left;text-decoration:none;}
+
+#nav_wrap{width:100%;height:50px;background:#333;position:fixed;}
+.nav_ul{width:470px;margin:0px auto;}
+.nav_ul li{margin:10px 30px;}
+.nav_ul a{color:#fff;font-size:16px;text-decoration:none;}
+.active{color:#F93;border-bottom:3px solid #CCC;padding-bottom:5px;}
+.home_bg{
+		height:640px;
+		min-height:200px;
+		width:100%;
+		background:url(image/header-background.jpg) no-repeat center top;
+		background-size:cover;
+		overflow:hidden;
+	}
+.home_text{
+		position:absolute;
+		text-align:center;
+		left:50%;
+		top:50%;
+		-webkit-transform:translateX(-50%) translateY(-50%);
+	}
+.home_text h1{font-size:80px;color:#fff;}
+.home_text h3{font-size:14px;color:#999;}
+
+#about{
+		height:640px;
+		width:100%;
+		background:#2b2b2b;
+		color:#fff;
+	}
+.box{
+	width:970px;
+	height:100%;
+	margin:auto;
+	overflow:hidden;
+}
+.about_photo,.resume_title{float:left;margin-top:100px;}
+.about_photo img{width:130px;height:130px;border-radius:50%;}
+.about_text,.resume_text{
+		float:left;
+		margin-top:100px;
+		margin-left:135px;
+		width:70%;
+	}
+.about_text h2,.about_text p{line-height:2em;}
+.about_text p{color:#999;font-size:16px;}
+.about_text p:nth-child(2){margin-bottom:70px;}
+
+#resume{background:#fff;color:#000;}
+.resume_education,.resume_work,.resume_skill{height:640px;border-bottom:1px solid #ccc;}
+.resume_skill{height:800px;}
+.resume_title{
+		font-size:24px;
+		border-bottom:3px solid #69C;
+		padding-bottom:5px;
+		margin-top:110px;
+	}
+.resume_text{margin-left:170px;}
+.resume_text h2,.resume_text p{line-height:2em;}
+.resume_text p{color:#999;font-size:16px;margin-bottom:30px;}
+.resume_text .info{font-size:18px;color:#666;margin-bottom:20px;}
+.resume_skill .skill li{clear:both;}
+.skill em{font-size:18px;letter-spacing:2px;font-weight:bold;}
+.skill span{display:block; width:610px;height:40px;margin-top:15px;margin-bottom:25px;}
+.skill_html{background: linear-gradient(90deg, #333 90%,  #ccc 10%);}
+.skill_css{background: linear-gradient(90deg, #333 90%,  #ccc 10%);}
+.skill_javascript{background: linear-gradient(90deg, #333 80%,  #ccc 20%);}
+.skill_jquery{background: linear-gradient(90deg, #333 70%,  #ccc 30%);}
+.skill_bootstrap{background: linear-gradient(90deg, #333 70%,  #ccc 30%);}
+.skill_Ajax{background: linear-gradient(90deg, #333 60%,  #ccc 40%);}
+
+#works{background:#EBEEEE;}
+#works p{
+	color:#666;
+	text-align:center;
+	margin-top:90px;
+	margin-bottom:55px;
+	font-size:18px;
+	letter-spacing:2px;
+}
+.show{height:600px;}
+.show img{width:210px;height:210px;}
+.show ul{width:1010px;}
+.show li{margin-right:40px;margin-bottom:40px;}
+
+#contact{background:#191919;}
+.contact_tit{margin-top:100px;}
+.contact_tit img{margin-left:80px;}
+.contact_tit p{
+	width:70%;
+	color:#666;
+	float:right;
+	text-align:left;
+	font-size:18px;
+	margin-left:50px;
+	margin-bottom:70px;
+	line-height:2em;
+}
+.group{clear:both;margin-top:40px;margin-left:95px;}
+.group label{color:#fff;font-size:18px;}
+.group input,.group textarea{
+	background:#373233;
+	margin-left:155px;
+	border:none;
+	width:415px;
+	height:60px;
+	font-size:18px;
+}
+.group .message{position:relative;top:30px;}
+.group textarea{
+	vertical-align:text-top;
+	height:400px;
+}
+button{
+	width:120px;
+	height:55px;
+	background:#000;
+	color:#fff;
+	border:none;
+	font-size:24px;
+	margin:40px 0px 100px 295px;
+}
+button:hover{color:#000;background:#fff;transition:ease 0.5s;}
+
+
+footer{height:200px;width:100%;background:#0f0f0f;}
+footer div{text-align:center;padding-top:70px;}
+footer div a{margin:0px 40px;}
+footer div img{width:30px;height:30px;}
+footer div p{color:#999;margin-top:30px;}
+
+
+</style>
+
+
+</head>
+
+<body>
+<header id="nav">
+	<nav id="nav_wrap">
+    	<ul class="nav_ul">
+        	<li class="active"><a href="#home">首页</a></li>
+            <li><a href="#about">关于</a></li>
+            <li><a href="#resume">简历</a></li>
+            <li><a href="#works">作品</a></li>
+            <li><a href="#contact">联系</a></li>
+        </ul>
+    </nav>
+</header>
+<section id="home">
+    <div class="home_bg">
+    	<div class="home_text">
+        	<h1>我是xxx。</h1>
+            <h3>我是一名热爱网页制作的前端工程师，我要用我的双手把每个网页都写的明明白白，让我们开始了解更多关于我的。</h3>
+        </div>
+    </div>
+</section>
+    <section id="about">
+    	<div class="box">
+    	<div class="about_photo">
+        	<img src="image/profilepic.jpg" />
+        </div>
+        <div class="about_text">
+        	<h2>关于我</h2>
+            <p>
+            	我是一个比较随和的人，能很好的处理人跟人之间的关系。对待我的本职工作，或者说答应了别人的事，我就会尽可能去做好，在我朋友们的眼中我是一个很值得信任的人，不过我自我理解的是我是一个比较负责的人。另外，我的学习能力比较强，我能快速的接受新的知识。我从小就是一个很独立的人，无论在哪里生活或者学习，遇到问题的时候，我都能很好的解决。
+            </p>
+            <h2>联系方式</h2>
+            <p>tel:15733719839</p>
+            <p>qq:80794165</p>
+            <P>email:zhaoxiongliang@126.com</P>
+        </div>
+        </div>
+    </section>
+    <section id="resume">
+    	<div class="box">
+    	<div class="resume_education">
+        	<div class="resume_title">教育经历</div>
+            <div class="resume_text">
+            	<h2>北京交通大学海滨学院</h2>
+                <p class="info">计算机科学系软件工程专业，2014-2018</p>
+                <p>简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</p>
+            </div>
+        </div>
+        <div class="resume_work">
+        	<div class="resume_title">工作经验</div>
+            <div class="resume_text">
+            	<h2>工作工作工作工作</h2>
+                <p class="info">工作工作工作工作，2014-2018</p>
+                <p>简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</p>
+            </div>
+        </div>
+        <div class="resume_skill">
+        	<div class="resume_title">个人技能</div>
+            <div class="resume_text">
+            	<p>简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</p>
+                <ul class="skill">
+					<li><em>html</em><span class="skill_html"></span></li>
+                 	<li><em>css</em><span class="skill_css"></span></li>
+					<li><em>javascript</em><span class="skill_javascript"></span></li>
+					<li><em>jquery</em><span class="skill_jquery"></span></li>
+					<li><em>bootstrap</em><span class="skill_bootstrap"></span></li>
+                    <li><em>Ajax</em><span class="skill_Ajax"></span></li>
+				</ul>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="works">
+    	<div class="box">
+        	<P>个人作品展示</P>
+            <div class="show">
+            	<ul>
+                	<li><a href="#"><img src="image/m-coffee.jpg" /></a></li>
+                    <li><a href="#"><img src="image/m-console.jpg" /></a></li>
+                    <li><a href="#"><img src="image/m-farmerboy.jpg" /></a></li>
+                    <li><a href="#"><img src="image/m-girl.jpg" /></a></li>
+                    <li><a href="#"><img src="image/m-intothelight.jpg" /></a></li>
+                    <li><a href="#"><img src="image/m-judah.jpg" /></a></li>
+                    <li><a href="#"><img src="image/m-origami.jpg" /></a></li>
+                    <li><a href="#"><img src="image/m-retrocam.jpg" /></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+    	<div class="box">
+        	<div class="contact_tit">
+            	<img src="image/contect.jpg"/>
+                <p>如果有什么想对我说的，请通过下面方式填入信息联系我。</p>
+            </div>
+            <form>
+                <div class="group">
+                    <label>姓名:</label>
+                    <input type="text" name="name"/>
+                </div>
+                <div class="group">
+                    <label>邮件:</label>
+                    <input type="text" name="email"/>
+                </div>
+                <div class="group">
+                    <label>主题:</label>
+                    <input type="text" name="subject"/>
+                </div>
+                <div class="group">
+                    <label class="message">内容:</label>
+                    <textarea name="message"></textarea>
+                </div>
+                <button type="submit">提交</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+    	<div>
+        	<a href=""><img src="image/weibo.png" /></a>
+            <a href=""><img src="image/qq.png" /></a>
+            <a href=""><img src="image/twiter.png" /></a>
+            <a href=""><img src="image/inter.png" /></a>
+            <p>&copy; 2017年6月-个人简历-赵雄亮</p>
+        </div>
+    </footer>
+
+<script type="text/javascript">
+	var nav=document.getElementById('nav');
+	var navwrap=document.getElementById('nav_wrap');
+	var oul=navwrap.getElementsByTagName('ul');
+	var ali=oul[0].getElementsByTagName('li');
+	var section=document.getElementsByName('section');
+	var num=navwrap.offsetTop;
+	var a=navwrap.offsetHeight;
+	
+	window.onscroll = function(){  
+		var scrollTop=document.documentElement.scrollTop||document.body.scrollTop||window.pageYOffset;
+		
+		for(var i=0;ali.length;i++){
+
+			if(scrollTop+a>=section[i].offsetTop){
+				for(var j=0;j<section.length;j++){
+					ali[j].className='';
+				}
+				ali[i].className='active';
+			}
+		}
+	}
+</script>
+</body>
+</html>
